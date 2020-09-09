@@ -143,6 +143,11 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=~/Applications/android-studio/bin:$PATH
 
 # User defined aliases
-alias g="git"
-alias d="cd ~/Documents/uw/"
-alias r="cd ~/Documents/uw/repos/"
+alias g="git" # Shortcut for git
+alias d="cd ~/Documents/uw/" # Navigate to school files
+alias c="cd~/Documents/uw/courses" # Navigate to courses
+alias r="cd ~/Documents/uw/repos/" # Navigate to projects
+alias dotfiles="cd ~/.dotfiles/" # Navigate to dotfiles
+alias night="redshift -r 1000:3000" # Run blue light filter
+
+export PATH=~/racket/bin/:$PATH
